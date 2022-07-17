@@ -26,6 +26,8 @@ Constraints:
 
 // TLE (Time Limit Exceeded)
 // this approach contains many branches that had been already visited before. Needs memoization.
+// Time Complexity: O(4^n).
+// Space Complexity: O(n).
 class Solution {
 public:
     int findPaths(int m, int n, int maxMove, int startRow, int startColumn) {
