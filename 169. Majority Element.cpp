@@ -78,7 +78,7 @@ public:
 //this way of insertion gives Runtime: 20 ms, faster than 87.84% of C++ online submissions for Majority Element. and same memory usage.
 for(int e : nums) {
     if(m.find(e) == m.end()) {
-        m[e] = 1; // it's better update a new value or old value this way.
+        m[e] = 1; // it's better to update a new value or old value this way.
     } else {
         m[e] += 1;
    	}
